@@ -33,7 +33,7 @@ namespace Consumer.Controllers
             }
             else
             {
-                return StatusCode((int)response.StatusCode, "Problem happened with the request")  ;
+                return StatusCode((int)response.StatusCode, "Problem happened with the request");
             }
         }
     }
