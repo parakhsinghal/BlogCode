@@ -10,9 +10,10 @@ namespace Consumer
 
             // Add services to the container.
 
-            builder.Services.AddHttpClient();
+            builder.Services.AddHttpClient();          
             builder.Services.AddControllers();
-            builder.Services.AddSingleton<PollyStrategies>(new PollyStrategies());
+builder.Services.AddSingleton<PollyStrategies>(new PollyStrategies());
+
 
             var app = builder.Build();
 

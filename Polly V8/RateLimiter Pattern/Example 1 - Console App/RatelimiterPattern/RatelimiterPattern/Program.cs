@@ -3,7 +3,7 @@
 namespace RatelimiterPattern
 {
     internal class Program
-    {
+    { 
         static async Task Main(string[] args)
         {
             MyClass myClass = new MyClass();
