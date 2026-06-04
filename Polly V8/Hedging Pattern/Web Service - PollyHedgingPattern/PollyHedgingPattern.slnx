@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BackupService/BackupService.csproj" />
+  <Project Path="PollyStrategies/PollyStrategies.csproj" />
+  <Project Path="PrimaryService/PrimaryService.csproj" />
+  <Project Path="Server/Server.csproj" />
+</Solution>

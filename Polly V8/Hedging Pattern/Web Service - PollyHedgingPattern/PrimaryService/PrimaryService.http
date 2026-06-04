@@ -1,0 +1,6 @@
+@PrimaryService_HostAddress = http://localhost:5258
+
+GET {{PrimaryService_HostAddress}}/api/randomvalue/
+Accept: application/json
+
+###
